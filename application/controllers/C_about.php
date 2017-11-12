@@ -3,23 +3,25 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class C_about extends CI_Controller {
 
-	public function elin()
+	public function index()
 	{
-		$this->load->view('elin.php');
+		$this->load->view('element/header');
+		$this->load->view('content/elin');
+		$this->load->view('element/footer');
 	}
 
 	public function pipit()
 	{
-		$this->load->view('pipit.php');
+		$this->load->view('content/pipit.php');
 	}
 
 	public function lifya()
 	{
-		$this->load->view('lifya.php');
+		$this->load->view('content/lifya.php');
 	}
 
 	public function yulin()
 	{
-		$this->load->view('yulin.php');
+		$this->load->view('content/yulin.php');
 	}
 }
