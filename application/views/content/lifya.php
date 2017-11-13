@@ -41,7 +41,7 @@
 
       <div class="row" style="margin-top:20px;">
         <div class="col-sm-3"> 
-          <a href="#"><img src="image/lifya.jpg"></a>
+          <a href="#"><img src="<?php echo base_url()?>assets/images/lifya.jpg" /> </a>
         </div>
 
         <div class="col-sm-6" style="margin-top: 30px;"> 

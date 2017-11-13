@@ -1,22 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>More</title>
+
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url() ?>assets/css/stylesheet1.css">
+    <link rel="stylesheet" href="<?php echo base_url() ?>assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?php echo base_url() ?>assets/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="aboutmore.html"> 
+</head>
 <body>
 <div class="navbar navbar-default navbar-fixed-top" role="navigation" id="myNavbar">
-	<div class="container">
-		<div class="nabar-header">
-			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button> 
+  <div class="container">
+    <div class="nabar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button> 
 
-			<a href="#Home" class="navbar-brand">COSMIC</a>
-		</div>
-		<div class="navbar-collapse collapse">
-			<ul class="nav navbar-nav navbar-right">
-				<li><a href="portfolio5.php">Home</a></li>
-				<li><a href="portfolio5.php">About Group</a></li>
-				<li><a href="portfolio5.php">Product</a></li>
-				<li><a href="portfolio5.php" onclick="tubes()">Tugas Besar</a></li>
-				<li><a href="portfolio5.php" data-toggle="modal" data-target='#modal'>Contact</a></li>
+		 <a href="#Home" class="navbar-brand">COSMIC</a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="portfolio5.php">Home</a></li>
+        <li><a href="portfolio5.php">About Group</a></li>
+        <li><a href="portfolio5.php">Product</a></li>
+        <li><a href="portfolio5.php">Tugas Besar</a></li>
+        <li><a href="#" data-toggle="modal" data-target='#modal'>Contact</a></li>
 			</ul>
 		</div>
 	</div>
@@ -33,7 +44,7 @@
 
       <div class="row" style="margin-top:20px;">
         <div class="col-sm-3"> 
-          <a href="#"><img src="image/elin.jpg"></a>
+          <a href="#"><img src="<?php echo base_url()?>assets/images/elin.jpg" /> </a>
         </div>
 
         <div class="col-sm-6" style="margin-top: 30px;"> 
@@ -94,3 +105,4 @@
     </div>
   </div>
 </div>
+</body>

@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
+
 	<title>More</title>
+
     <link rel="stylesheet" type="text/css" href="<?php echo base_url() ?>assets/css/stylesheet1.css">
     <link rel="stylesheet" href="<?php echo base_url() ?>assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?php echo base_url() ?>assets/font-awesome/css/font-awesome.css">
-    <link rel="stylesheet" type="text/css" href="aboutmore.html">
+    <link rel="stylesheet" type="text/css" href="aboutmore.html"> 
 </head>
 <body>
 <div class="navbar navbar-default navbar-fixed-top" role="navigation" id="myNavbar">
@@ -42,7 +44,7 @@
 
       <div class="row" style="margin-top:20px;">
         <div class="col-sm-3"> 
-          <a href="#"><img src="image/yulinda.jpg"></a>
+        <a href="#"><img src="<?php echo base_url()?>assets/images/yulinda.jpg" /> </a>
         </div>
 
         <div class="col-sm-6" style="margin-top: 30px;"> 
