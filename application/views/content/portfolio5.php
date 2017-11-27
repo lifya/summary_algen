@@ -42,7 +42,7 @@
    			<h1>Computer Science Informatic</h1>
    			<h2>We are Cosmic Group</h2>
    		</div>
-      <a href="<?php echo base_url() ?>" class="btn btn-lg btn-success">View Detail</a>
+      <a href="<?php echo base_url() ?>C_sumary" class="btn btn-lg btn-success">View Detail</a>
    </section>
 <!--Home-->
 

@@ -37,7 +37,12 @@ input[type=judul]
     <tr>
         <td valign="center"><b>Isi Ringkasan</b></td>
         <td valign="center">:</td>
-        <td><textarea cols=90 rows=27 name="isiringkasan"> </textarea></td>
+        <td><textarea cols=90 rows=17 name="isiringkasan"> </textarea></td>
+    </tr>
+    <tr>
+        <td valign="center"><b>Hasil Ringkasan Ringkasan</b></td>
+        <td valign="center">:</td>
+        <td><textarea cols=90 rows=17 name="isiringkasan"> </textarea></td>
     </tr>
     </table>
 

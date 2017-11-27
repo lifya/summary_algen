@@ -24,4 +24,5 @@ class C_about extends CI_Controller {
 	{
 		$this->load->view('content/yulin.php');
 	}
+
 }
